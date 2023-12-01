@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import styles from './page.module.css';
 
-const HomePage = () => {
+export default function HomePage() {
 	return (
 		<main className={styles.main}>
 			<div className={styles.description}>
@@ -76,6 +76,4 @@ const HomePage = () => {
 			</div>
 		</main>
 	);
-};
-
-export default HomePage;
+}
