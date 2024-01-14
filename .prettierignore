@@ -1,23 +1,28 @@
+# dependencies
 node_modules
+.pnp
+.pnp.js
+
+# testing
 coverage
+
+# build
+storybook-static
+*.min.js
+*.min.css
+
+# production
 build
 dist
 
-.eslintrc.json
-.eslintignore
-.prettierignore
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-*.log
-*.lock
-*.swp
-*.DS_Store
-
-*.config.js
-*.config.ts
-*.config.json
-
-.husky/*
-scripts/*
-
-.nvmrc
-.mdx
+# log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
